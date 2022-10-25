@@ -39,3 +39,12 @@ if let errorMessage2 = errorMessage2 {
  5. Add an else block to the if let statement that prints “Hello, firstName lastName”
  */
 //: [Next](@next)
+var firstName = "Imani"
+var lastName = "Ward"
+var suffix: String? = "Ms"
+
+if let suffix = suffix{
+    print("Hello \(firstName) \(lastName) \(suffix)")
+} else {
+    print("Hello \(firstName) \(lastName)")
+}

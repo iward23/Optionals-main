@@ -28,6 +28,8 @@ import Foundation
  2. Print favoriteFood to the console. Notice the warnings that appear. Do you see a suggestion in the warnings that uses ???
 3. Inside the print statement, use the nil-coalescing operator to give a default value of “No Favorite Food”.
  */
+var favoriteFood: String?
+print(favoriteFood ?? "No Favorite Food")
 
 
 

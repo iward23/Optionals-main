@@ -63,5 +63,11 @@ if let firstRelease = firstRelease {
     }
 }
 
-
+if let firstRelease = firstRelease, let website = website, let designer = designer{
+    if shouldPrintSum{
+        let message =
+        "\(language) was first released in \(firstRelease). Its website can be found at \(website). It was designed by \(designer)."
+        print(message)
+    }
+}
 //: [Next](@next)
